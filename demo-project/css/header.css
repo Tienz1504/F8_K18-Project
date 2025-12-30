@@ -1,0 +1,56 @@
+.header-bar-body{
+    position: relative;
+    left: -1px;
+    justify-content: space-between;
+    border-bottom: 1px;
+    padding: 50px 200px 50px 200px;
+    color: #0F0F0F33;
+    width: 100%;
+    height: auto;
+}
+#logo {
+    width: 75px;
+    height: 54px;
+}
+.header-menu {
+    /* Buttons Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+    color: #FFFFFF;
+
+    margin: 0;
+    width: 100%;
+    height: 55px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+#text-button ,
+#text-button2 ,
+#text-button3 ,
+#text-button4 ,
+#text-button5 ,
+#text-button6 ,
+#text-button7 {
+    gap: 10px;
+}
+
+#text-button2 {
+    border: 1px solid #1F1F1F;
+    border-radius: 84px;
+    width: 127px;
+    height: 55px;
+    background: #1A1A1A;
+    padding: 16px 24px 16px 24px;
+}

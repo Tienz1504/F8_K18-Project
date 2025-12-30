@@ -1,0 +1,1018 @@
+.iconAA {
+    /* Icon */
+
+    width: 25px;
+    height: 25px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #1A1A1A;
+}
+.iconAA2 {
+    /* Icon */
+
+    width: 25px;
+    height: 25px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.text-btnA {
+    /* Text */
+
+    width: 250px;
+    height: 27px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    /* Absolute/White */
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+.text-btnA span {
+    background-color: #1A1A1A;
+}
+.text-btnB {
+    /* Text */
+
+    width: 250px;
+    height: 27px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    /* Absolute/White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+.main-container3 {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 80px;
+
+    width: 1000px;
+    height: 2900px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+.text-main-container3 {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 10px;
+
+    width: 1000px;
+    height: 164px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.heading-textA {
+    /* Heading */
+
+    width: 1000px;
+    height: 42px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+    /* identical to box height, or 42px */
+
+    /* Absolute/White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-textA {
+    /* Paragraph */
+
+    width: 950px;
+    height: 100px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.sub-main-container3 {
+    /* Sub Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 20px;
+
+    width: 1000px;
+    height: 2670px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.subA-main-container3 {
+    /* Container */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px;
+    gap: 35px;
+
+    width: 1000px;
+    height: 550px;
+
+    /* Grey/12 */
+    border: 1px solid #1F1F1F;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.heading-subA {
+    /* Heading */
+
+    width: 900px;
+    height: 42px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 42px */
+
+    /* Absolute/White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.sub-subA {
+    /* Sub Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 35px;
+
+    width: 900px;
+    height: 400px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.sub-sub-subA {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 35px;
+
+    width: 900px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subA {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    width: 450px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    /*line*/
+    border-width: 0 1px 0 0;
+    border-color: #1A1A1A;
+    border-style: solid;
+
+}
+.heading-sub-sub-subA {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subA {
+    /* Paragraph */
+
+    width: 425px;
+    height: 54px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subAA {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    width: 450px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+
+}
+.heading-sub-sub-subAA {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subAA {
+    /* Paragraph */
+
+    width: 425px;
+    height: 54px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.line {
+    /* Line */
+
+    width: 900px;
+    height: 0;
+
+    /* Grey/12 */
+    border: 1px solid #1F1F1F;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.sub-sub-subA2 {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 35px;
+
+    width: 900px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subA2 {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    width: 450px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    /*line*/
+    border-width: 0 1px 0 0;
+    border-color: #1A1A1A;
+    border-style: solid;
+
+}
+.heading-sub-sub-subA2 {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subA2 {
+    /* Paragraph */
+
+    width: 425px;
+    height: 54px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subAA2 {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    width: 450px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+
+}
+.heading-sub-sub-subAA2 {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subAA2 {
+    /* Paragraph */
+
+    width: 425px;
+    height: 54px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.subB-main-container3 {
+    /* Container */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px;
+    gap: 35px;
+
+    width: 1000px;
+    height: 725px;
+
+    /* Grey/12 */
+    border: 1px solid #1F1F1F;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.heading-subB {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 15px;
+
+    width: 900px;
+    height: 110px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.main-heading-subB {
+    /* Heading */
+
+    width: 900px;
+    height: 45px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 42px */
+
+    /* Absolute/White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-subB {
+    /* Paragraph */
+
+    width: 900px;
+    height: 55px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/50 */
+    color: #808080;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.sub-subB {
+    /* Sub Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 35px;
+
+    width: 900px;
+    height: 500px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.sub-sub-subB {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 35px;
+
+    width: 900px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subB {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    max-width: 450px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    /*line*/
+    border-width: 0 1px 0 0;
+    border-color: #1A1A1A;
+    border-style: solid;
+
+}
+.heading-sub-sub-subB {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subB {
+    /* Paragraph */
+
+    width: 425px;
+    height: 105px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subB2 {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    width: 450px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+
+}
+.heading-sub-sub-subB2 {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subB2 {
+    /* Paragraph */
+
+    width: 425px;
+    height: 55px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.line2 {
+    width: 900px;
+    height: 0;
+    border: 1px solid #1A1A1A;
+}
+.sub-sub-subBB {
+    /* Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 35px;
+
+    width: 900px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subBB {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    max-width: 450px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    /*line*/
+    border-width: 0 1px 0 0;
+    border-color: #1A1A1A;
+    border-style: solid;
+
+}
+.heading-sub-sub-subBB {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subBB {
+    /* Paragraph */
+
+    width: 425px;
+    height: 80px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-sub-sub-subBB2 {
+    /* Text Container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    gap: 15px;
+
+    width: 450px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+
+}
+.heading-sub-sub-subBB2 {
+    /* Heading */
+
+    width: 425px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    /* White Shades/80 */
+    color: #CCCCCC;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pharagraph-sub-sub-subBB2 {
+    /* Paragraph */
+
+    width: 425px;
+    height: 105px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* White Shades/55 */
+    color: #8C8C8C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}

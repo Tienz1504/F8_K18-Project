@@ -11,6 +11,8 @@
 #logo {
     width: 75px;
     height: 54px;
+    position: absolute;
+    left: 75px;
 }
 .header-menu {
     /* Buttons Container */
@@ -33,7 +35,7 @@
     order: 1;
     flex-grow: 0;
     position: absolute;
-    left: 800px;
+    left: 750px;
     top: 50px;
 }
 #text-button ,

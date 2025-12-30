@@ -9,6 +9,8 @@ body {
     width: 1500px;
     overflow-x: hidden;
     margin-left: 125px;
+    position: relative;
+    left: 650px;
 }
 #sub-spanA ,
 #sub-spanB ,
